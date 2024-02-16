@@ -1,0 +1,56 @@
+.step-navigation {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .step {
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+  }
+  .pointer {
+    width: 200px;
+    height: 40px;
+    position: relative;
+    background:rgb(47, 222, 47);
+    padding-left: 10px;
+  }
+  .pointer:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+  .pointer:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid lightgreen;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+  .step.active  {
+    color: white;
+  }
+  label{
+    display: block !important;
+  }
+  input{
+    width: 100%;
+    border:none ;
+    border-bottom: 1.5px solid black !important;
+  }
+  .five{
+    border:none ;
+    border-bottom: 1.5px solid black !important;
+  }

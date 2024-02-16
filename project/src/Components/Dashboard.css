@@ -1,0 +1,31 @@
+#employees{
+    background-color: rgb(125, 87, 161);
+    border-radius: 10px;
+    height:100px;
+    width:30%;
+}
+#present{
+    background-color: aqua;
+    border-radius: 10px;
+    height:100px;
+    width:30%;
+}
+#absent{
+    background-color: rgb(101, 146, 101);
+    border-radius: 10px;
+    height:100px;
+    width:30%;
+}
+.col-sm-3{
+    background-color: skyblue;
+    border-radius: 10px;
+    height:100px;
+    width:30%;
+}
+h4{
+   padding:20px;
+   margin-left:0px;
+}
+.container{
+    background-color: beige;
+}

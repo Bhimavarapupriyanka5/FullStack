@@ -7,30 +7,30 @@
 
   
 
-  <!-- ===== BOX ICONS ===== -->
+ 
   <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
 
   <title>ivyPraise Sneakers</title>
 </head>
 <style>
-  /*===== GOOGLE FONTS =====*/
+ 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-/*===== VARIABLES CSS =====*/
+
 :root {
   --header-height: 3rem;
 
-  /*===== Font weight =====*/
+  
   --font-medium: 500;
   --font-semi-bold: 600;
   --font-bold: 700;
 
-  /*===== Colores =====*/
+  
   --dark-color: #141414;
   --dark-color-light: #8a8a8a;
   --dark-color-lighten: #f2f2f2;
   --white-color: #fff;
 
-  /*===== Font and typography =====*/
+ 
   --body-font: "Poppins", sans-serif;
   --big-font-size: 1.25rem;
   --bigger-font-size: 1.5rem;
@@ -39,7 +39,7 @@
   --normal-font-size: 0.938rem;
   --smaller-font-size: 0.813rem;
 
-  /*===== Margenes =====*/
+ 
   --mb-1: 0.5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
@@ -47,10 +47,10 @@
   --mb-5: 2.5rem;
   --mb-6: 3rem;
 
-  /*===== z index =====*/
+ 
   --z-fixed: 100;
 
-  /*===== Rotate img =====*/
+  
   --rotate-img: rotate(-30deg);
 }
 
@@ -64,7 +64,7 @@
   }
 }
 
-/*===== BASE =====*/
+
 *,
 ::before,
 ::after {
@@ -108,7 +108,7 @@ img {
   display: block;
 }
 
-/*===== CLASS CSS ===== */
+
 .section {
   padding: 5rem 0 2rem;
 }
@@ -133,7 +133,7 @@ img {
   background-color: var(--dark-color);
 }
 
-/*===== LAYOUT =====*/
+
 .bd-grid {
   max-width: 1320px;
   display: grid;
@@ -153,7 +153,7 @@ img {
   background-color: var(--dark-color-lighten);
 }
 
-/*===== NAV =====*/
+
 .nav {
   height: var(--header-height);
   display: flex;
@@ -187,11 +187,11 @@ img {
     cursor: pointer;
   }
 }
-/*Show menu*/
+
 .show {
   left: 0;
 }
-/*Active link*/
+
 .active {
   position: relative;
 }
@@ -207,14 +207,14 @@ img {
   border-radius: 50%;
 }
 
-/*Change color header*/
+
 
 .scroll-header {
   background-color: var(--white-color);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/*===== HOME =====*/
+
 .home {
   background-color: var(--dark-color-lighten);
   overflow: hidden;
@@ -262,7 +262,7 @@ img {
   margin-bottom: var(--mb-6);
 }
 
-/*BUTTONS*/
+
 .button {
   display: inline-block;
   background-color: var(--dark-color);
@@ -293,7 +293,7 @@ img {
   transform: translateX(0.25rem);
 }
 
-/*===== FEATURED =====*/
+
 .featured__container {
   row-gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(220px), 1fr);
@@ -364,7 +364,7 @@ img {
   color: var(--white-color);
 }
 
-/*===== COLLECTION =====*/
+
 
 .collection__container {
   row-gap: 2rem;
@@ -398,13 +398,13 @@ img {
   transform: translateY(-0.5rem);
 }
 
-/*===== WOMEN SNEAKERS =====*/
+
 .women__container {
   row-gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
-/*===== OFFER =====*/
+
 .offer__container {
   grid-template-columns: 55% 45%;
   column-gap: 0;
@@ -430,7 +430,7 @@ img {
   width: 153px;
 }
 
-/*===== NEW COLLECTION  =====*/
+
 .new__container {
   row-gap: 2rem;
 }
@@ -496,7 +496,7 @@ img {
   bottom: 0;
 }
 
-/*===== NEWSLETTER =====*/
+
 .newsletter__container {
   background-color: var(--dark-color);
   color: var(--white-color);
@@ -536,7 +536,7 @@ img {
   font-weight: var(--font-semi-bold);
 }
 
-/*===== FOOTER =====*/
+
 .footer__container {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
@@ -567,7 +567,7 @@ img {
   text-align: center;
 }
 
-/* ===== MEDIA QUERIES=====*/
+
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
@@ -625,7 +625,7 @@ img {
 </style>
 
 <body>
-  <!--===== HEADER =====-->
+ 
   <header class="header-1" id="header">
     <nav class="nav bd-grid">
       <div class="nav__toggle" id="nav-toggle">
@@ -651,7 +651,7 @@ img {
   </header>
 
   <main class="l-main">
-    <!--===== HOME =====-->
+  
     <section class="home" id="home">
       <div class="home__container bd-grid">
         <div class="home__sneaker">
@@ -668,7 +668,7 @@ img {
         </div>
     </section>
 
-    <!--===== FEATURED =====-->
+
     <section class="featured section" id="featured">
       <h2 class="section-title">FEATURED</h2>
       <div class="featured__container bd-grid">
@@ -698,7 +698,7 @@ img {
       </div>
     </section>
 
-    <!--===== COLLECTION =====-->
+ 
     <section class="collection section">
       <div class="collection__container bd-grid">
         <div class="collection__card">
@@ -724,7 +724,7 @@ img {
           </div>
     </section>
 
-    <!--===== WOMEN SNEAKERS =====-->
+   
     <section class="women section" id="women">
       <h2 class="section-title">WOMEN SNEAKERS</h2>
 
@@ -759,7 +759,7 @@ img {
       </div>
     </section>
 
-    <!--===== OFFER =====-->
+ 
     <section class="offer section">
       <div class="offer__container bd-grid">
         <div class="offer__data">
@@ -772,7 +772,7 @@ img {
       </div>
     </section>
 
-    <!--===== NEW COLLECTION =====-->
+   
     <section class="new section" id="new">
       <h2 class="section-title">NEW COLLECTION</h2>
 
@@ -817,7 +817,7 @@ img {
       </div>
     </section>
 
-    <!--===== NEWSLETTER =====-->
+   
 
     <section class="newsletter section">
       <div class="newsletter__container bd-grid">
@@ -834,7 +834,7 @@ img {
     </section>
   </main>
 
-  <!--===== FOOTER =====-->
+  
   <footer class="footer section">
     <div class="footer__container bd-grid">
       <div class="footer__box">
@@ -872,9 +872,9 @@ img {
    
   </footer>
 
-  <!--===== MAIN JS =====-->
+ 
   <script>
-    /*===== MENU SHOW =====*/
+  
 const showMenu = (toggleId, navId) => {
   const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId);
@@ -888,7 +888,7 @@ const showMenu = (toggleId, navId) => {
 
 showMenu("nav-toggle", "nav-menu");
 
-/*===== REMOVE MENU =====*/
+
 const navLink = document.querySelectorAll(".nav__link"),
   navMenu = document.getElementById("nav-menu");
 
@@ -898,7 +898,7 @@ function linkAction() {
 
 navLink.forEach(n => n.addEventListener("click", linkAction));
 
-/*===== SCROLL SECTIONS ACTIVE LINK =====*/
+
 const sections = document.querySelectorAll("section[id]");
 
 window.addEventListener("scroll", scrollActive);
@@ -923,7 +923,7 @@ function scrollActive() {
   });
 }
 
-/*===== CHANGE COLOR HEADER =====*/
+
 window.onscroll = () => {
   const nav = document.getElementById("header");
   if (this.scrollY >= 200) nav.classList.add("scroll-header");
