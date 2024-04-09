@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import './Createemploye.css';
 function Createemploye() {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
